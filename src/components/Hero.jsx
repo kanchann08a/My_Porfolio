@@ -79,7 +79,7 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-9">
               <a
-                href="/resume.pdf"
+                href="/resume (2).pdf"
                 download="Kanchan_Nishad_Resume.pdf"
                 className="btn-primary flex items-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-sm transition-all duration-300"
               >
