@@ -132,17 +132,7 @@ export default function Footer() {
 
         {/* Tech stack row */}
         <div className="py-6 border-t mb-6" style={{ borderColor: 'rgba(255,255,255,0.05)' }}>
-          <p className="text-slate-500 text-xs text-center mb-3 font-medium">Built with</p>
           <div className="flex flex-wrap items-center justify-center gap-2">
-            {['React', 'Vite', 'Tailwind CSS'].map(tech => (
-              <span
-                key={tech}
-                className="text-xs px-3 py-1 rounded-full font-semibold"
-                style={{ background: 'rgba(15,118,110,0.12)', color: '#14b8a6', border: '1px solid rgba(15,118,110,0.25)' }}
-              >
-                {tech}
-              </span>
-            ))}
           </div>
         </div>
 
